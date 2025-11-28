@@ -57,6 +57,7 @@ To earn **VC-Certified Silver Tier**, the Adopter must:
 Submit evaluation to:
 
 certification@veritaschain.org
+
 https://veritaschain.org/certified/
 
 ---
