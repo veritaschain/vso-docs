@@ -1,4 +1,28 @@
-# VeritasChain Standards Organization – Official Documentation Hub
+---
+title: "VeritasChain Standards Organization – Official Documentation Hub"
+description: "Official document archive for VC-Certified, VCP v1.0 compliance, and Early Adopter Program documents published by the VeritasChain Standards Organization (VSO)."
+organization: "VeritasChain Standards Organization (VSO)"
+version: "1.0"
+documents:
+  - file: "VCP_Silver_Tier_SAC_v1.docx"
+    id: "VSO-CERT-SILVER-SAC-v1.0"
+    type: "Self-Assessment Checklist"
+    tier: "Silver"
+  - file: "VC_Certified_Silver_Certificate_v1.docx"
+    id: "VSO-CERT-SILVER-CERT-v1.0"
+    type: "Certificate Template"
+    tier: "Silver"
+  - file: "VCP_Early_Adopter_Agreement_v1.docx"
+    id: "VSO-EA-AGREE-v1.0"
+    type: "Participation Agreement"
+    tier: "Early Adopter Program"
+contact:
+  email: "certification@veritaschain.org"
+  website: "https://veritaschain.org"
+license: "© 2025 VeritasChain Standards Organization (VSO)"
+---
+
+# 📘 VeritasChain Standards Organization – Official Documentation Hub
 
 This repository serves as the authoritative document archive for the **VeritasChain Standards Organization (VSO)**.  
 It contains all formal documents related to **VC-Certified**, **VCP v1.0 compliance**, and the **Early Adopter Program**.
@@ -9,112 +33,90 @@ VSO’s mission:
 
 ---
 
-## 📘 Purpose of This Repository
+# 📂 Document Index
 
-This repository provides:
-
-- Official certification documents for **VC-Certified (Silver Tier)**  
-- Compliance and conformance materials for **VCP v1.0**  
-- Legal and technical documentation for the **Early Adopter Program (EAP)**  
-- Materials intended for Prop Firms, Brokers, Exchanges, and Regulatory stakeholders
-
-All documents follow an ISO-style structure with:
-- Document IDs  
-- Versioning  
-- Mandatory vs Recommended requirements  
-- RFC-referenced technical definitions  
-- VSO Non-Endorsement policies  
-- International-standard legal clauses  
-
----
-
-## 📂 Document Index
-
-### **1. Self-Assessment & Certification Documents**
+## 1. Self-Assessment & Certification Documents
 
 | Document | File | Description |
 |---------|------|-------------|
-| **VCP Silver Tier – Self-Assessment Checklist (SAC)** | `VSO-CERT-SILVER-SAC-v1.0.pdf` | Complete mandatory/recommended requirement list for Silver Tier conformance. Includes CORE, TIME, TRADE, SECURITY, PRIVACY modules as defined by VCP v1.0. |
-| **VC-Certified Silver Tier – Certificate Template** | `VC_Certified_Silver_Certificate_v1.pdf` | Official certificate issued after successful conformance verification. Includes Non-Endorsement disclaimer. |
+| **VCP Silver Tier – Self-Assessment Checklist (SAC)** | `VCP_Silver_Tier_SAC_v1.docx` | Official checklist for Silver Tier conformance. Includes Mandatory/Recommended requirements, RFC references (UUIDv7, RFC8785, RFC6962), and evidence submission. Document ID: **VSO-CERT-SILVER-SAC-v1.0** |
+| **VC-Certified Silver Tier – Certificate Template** | `VC_Certified_Silver_Certificate_v1.docx` | Template for the official Silver Tier certificate issued upon successful conformance validation. Includes VSO Non-Endorsement Policy. |
 
 ---
 
-### **2. Early Adopter Program Documents**
+## 2. Early Adopter Program Documents
 
 | Document | File | Description |
 |---------|------|-------------|
-| **Early Adopter Participation Agreement** | `VSO-EA-AGREE-v1.0.pdf` | Legal agreement defining confidentiality, permitted public disclosures, deliverables, IP rights, and governing law. |
-| **Early Adopter Program Overview** *(optional later)* | – | High-level description of the EAP and conformance workflow. |
+| **Early Adopter Participation Agreement** | `VCP_Early_Adopter_Agreement_v1.docx` | Formal participation agreement for organizations joining the Silver Tier Early Adopter Program. Includes confidentiality, deliverables, IP rights, disclaimers, and jurisdiction. Document ID: **VSO-EA-AGREE-v1.0** |
 
 ---
 
-### **3. Supporting References (Optional Future Additions)**
+# 🏛️ Certification Overview
 
-These may be added as the program grows:
+### **VC-Certified Silver Tier**
+Silver Tier is designed for:
 
-- VCP v1.0 Conformance Test Guide  
-- VC-Certified Branding & Usage Policy  
-- Gold / Platinum Tier checklists  
-- Case Study #1 (Anonymous Early Adopter)  
+- Retail trading systems  
+- Prop firms (MT4/MT5, cTrader, custom engines)  
+- Non-HFT infrastructures  
+- Systems with millisecond timestamps & best-effort NTP sync
+
+Silver Tier delivers a **tamper-evident transparency layer** for dispute resolution and baseline compliance.
 
 ---
 
-## 🏛️ VSO Policy Summary
+# 🔎 Certification Criteria
 
-VSO adheres strictly to the following principles:
+To earn **VC-Certified Silver Tier**, the Adopter must:
 
-### **🔹 Technical Conformance Only**
-VC-Certified confirms *technical* adherence to VCP v1.0.  
-It does **not** endorse:
-- financial stability  
-- profitability  
-- business continuity  
-- regulatory licensing
+1. Implement **100% of Mandatory requirements**  
+2. Achieve **≥85% overall compliance**  
+3. Submit required artifacts:  
+   - Hash-chain log (10–20 events)  
+   - Merkle proof  
+   - Architecture diagram  
+   - Completed SAC checklist  
 
-### **🔹 Independence & Neutrality**
-VSO does not promote, recommend, or endorse any trading firm or financial product.
+Submit evaluation to:
 
-### **🔹 Open Standards**
-VCP is designed around:
-- RFC 8785 (Canonical JSON)  
+certification@veritaschain.org
+https://veritaschain.org/certified/
+
+---
+
+# 📘 VSO Core Policies
+
+### **Technical Conformance Only**
+Certification confirms technical adherence to VCP v1.0.  
+It does **not** endorse financial stability, profitability, or regulatory compliance.
+
+### **Independence & Neutrality**
+VSO remains fully non-commercial and non-endorsing.
+
+### **International Standards-Based Design**
 - RFC 9562 (UUIDv7)  
-- RFC 6962 (Merkle Tree)  
+- RFC 8785 (Canonical JSON)  
+- RFC 6962 (Merkle Trees)  
 - Ed25519 signatures  
-- SHA-256 hash chains  
-- Open compliance tiering (Silver / Gold / Platinum)
+- SHA-256 hash chains
 
 ---
 
-## 🧭 How To Use These Documents
-
-### For Prop Firms / Brokers
-1. Start with `VSO-CERT-SILVER-SAC-v1.0.pdf`  
-2. Complete all Mandatory requirements  
-3. Submit evidence (logs, proofs, architecture diagram)  
-4. Sign Early Adopter Agreement  
-5. Receive provisional VC-Certified Silver Certificate
-
-### For Regulators / Compliance Teams
-Use the SAC & Certificate as reference materials when evaluating VCP readiness.
-
-### For Integrators / Developers
-Pair these documents with:
+# 🔧 Related Resources
 - VCP Specification v1.0  
-- VCP Explorer API v1.1  
-- VCP SDKs (TS/Python)
+- Explorer API v1.1  
+- SDKs (TS/Python)  
+- Sidecar Integration Guide  
+- VC-Certified Program Overview  
 
 ---
 
-## 📨 Contact
+# 📨 Contact
 
-**VSO Certification Division**  
+**VeritasChain Standards Organization (VSO)**  
+Tokyo, Japan  
 Email: certification@veritaschain.org  
-Web: https://veritaschain.org  
-Verify Certificates: https://explorer.veritaschain.org/verify/
+Web: https://veritaschain.org
 
----
-
-## © VeritasChain Standards Organization (VSO)
-
-This repository is part of the VSO mandate to maintain open, transparent, cryptographically verifiable standards for global markets.
-
+© 2025 VeritasChain Standards Organization (VSO)
