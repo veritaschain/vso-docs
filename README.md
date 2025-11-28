@@ -1,27 +1,3 @@
----
-title: "VeritasChain Standards Organization – Official Documentation Hub"
-description: "Official document archive for VC-Certified, VCP v1.0 compliance, and Early Adopter Program documents published by the VeritasChain Standards Organization (VSO)."
-organization: "VeritasChain Standards Organization (VSO)"
-version: "1.0"
-documents:
-  - file: "VCP_Silver_Tier_SAC_v1.docx"
-    id: "VSO-CERT-SILVER-SAC-v1.0"
-    type: "Self-Assessment Checklist"
-    tier: "Silver"
-  - file: "VC_Certified_Silver_Certificate_v1.docx"
-    id: "VSO-CERT-SILVER-CERT-v1.0"
-    type: "Certificate Template"
-    tier: "Silver"
-  - file: "VCP_Early_Adopter_Agreement_v1.docx"
-    id: "VSO-EA-AGREE-v1.0"
-    type: "Participation Agreement"
-    tier: "Early Adopter Program"
-contact:
-  email: "certification@veritaschain.org"
-  website: "https://veritaschain.org"
-license: "© 2025 VeritasChain Standards Organization (VSO)"
----
-
 # 📘 VeritasChain Standards Organization – Official Documentation Hub
 
 This repository serves as the authoritative document archive for the **VeritasChain Standards Organization (VSO)**.  
