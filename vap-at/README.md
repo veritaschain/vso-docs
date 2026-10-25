@@ -8,7 +8,7 @@
 
 > *"Verify, Don't Trust"* — Evaluating that audit trails for AI systems exist in a cryptographically verifiable form.
 
-> **Status correction — 25 October 2026:** This is a dated draft (Charter v0.6a, 2025-12-28). VSO is operated by VeritasChain Co., Ltd. VSO does not issue certificates. A CAB must be independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd. (the planned "Pilot CAB #1"), is not independent (VAP v1.2 ERRATA E-2026-10-21). "Accredited" in the charter means "VSO-approved": VSO approval is not accreditation in the ISO/IEC 17000 sense. Scores and Threshold Designations do not determine regulatory compliance (VAP v1.2 §1.6). The current VAP-AT program description is in [veritaschain/vap-spec `programs/vap-at/`](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at).
+> **Status correction — 25 October 2026:** This is a dated draft (Charter v0.6a, 2025-12-28). VSO is operated by VeritasChain Co., Ltd. VSO does not issue certifications itself. A CAB must be independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd. (the planned "Pilot CAB #1"), is not independent (VAP v1.2 ERRATA E-2026-10-21). "Accredited" in the charter means "VSO-approved": VSO approval is not accreditation in the ISO/IEC 17000 sense. Scores and Threshold Designations do not determine regulatory compliance (VAP v1.2 §1.6). The current VAP-AT program description is in [veritaschain/vap-spec `programs/vap-at/`](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at).
 
 ---
 

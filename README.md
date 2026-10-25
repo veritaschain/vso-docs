@@ -3,7 +3,7 @@
 > **Status correction — 25 October 2026**
 >
 > - The VCP v1.0 and VC-Certified v1.0 documents in this repository are superseded. VCP v1.0 is superseded by VCP v1.2 (Released, tag `v1.2.0`). The `.docx` files (`VCP_Silver_Tier_SAC_v1.docx`, `VC_Certified_Silver_Certificate_v1.docx`, `VCP_Early_Adopter_Agreement_v1.docx`) are historical records and are not edited.
-> - VSO does not issue certificates. The certification scheme requires a Conformity Assessment Body (CAB) independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21). No VC-Certified certificate described below can currently be issued by an independent CAB.
+> - VSO does not issue certifications itself. The certification scheme requires a Conformity Assessment Body (CAB) independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21). No VC-Certified certificate described below can currently be issued by an independent CAB.
 > - VSO is operated by VeritasChain Co., Ltd. (kabushiki kaisha); its neutrality rests on published mechanisms, not on its legal form. Conformance is not compliance (VAP v1.2 §1.6).
 > - Conformance to any VCP tier, or to VAP, has not been independently established for any implementation, and there are zero external implementations of VAP or any of its profiles.
 > - The CAP drafts here (v0.1, v0.2) are superseded by CAP v1.0 in [veritaschain/cap-spec](https://github.com/veritaschain/cap-spec). The VAP-AT charter in `vap-at/` is a dated draft (v0.6a); see the notes at the top of each file.
@@ -25,7 +25,7 @@ VSO’s mission:
 | Document | File | Description |
 |----------|------|-------------|
 | **VCP Silver Tier – Self-Assessment Checklist (SAC)** | `VCP_Silver_Tier_SAC_v1.docx` | Official self-assessment checklist for Silver Tier conformance. Includes Mandatory/Recommended requirements, RFC references (UUIDv7, RFC 8785, RFC 6962), and evidence submission criteria. Document ID: **VSO-CERT-SILVER-SAC-v1.0**. |
-| **VC-Certified Silver Tier – Certificate Template** | `VC_Certified_Silver_Certificate_v1.docx` | Historical template for a Silver Tier certificate. VSO does not issue certificates (see the status correction above). Includes VSO Non-Endorsement Policy language. |
+| **VC-Certified Silver Tier – Certificate Template** | `VC_Certified_Silver_Certificate_v1.docx` | Historical template for a Silver Tier certificate. VSO does not issue certifications itself (see the status correction above). Includes VSO Non-Endorsement Policy language. |
 
 ### 2. Early Adopter Program Documents
 
@@ -107,7 +107,7 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 - **For Adopters (Prop Firms / Brokers / Exchanges)**  
   - Use `VCP_Silver_Tier_SAC_v1.docx` to prepare your internal assessment.  
   - Review and sign `VCP_Early_Adopter_Agreement_v1.docx` before joining the Early Adopter Program.  
-  - ~~Upon successful verification, VSO issues a certificate based on `VC_Certified_Silver_Certificate_v1.docx`.~~ Superseded: VSO does not issue certificates (status correction, 25 October 2026).
+  - ~~Upon successful verification, VSO issues a certificate based on `VC_Certified_Silver_Certificate_v1.docx`.~~ Superseded: VSO does not issue certifications itself, and no independent CAB is registered (status correction, 25 October 2026).
 
 - **For Regulators / Auditors / Investors**  
   - Use these documents to understand how VSO defines Silver Tier conformance and how certification is granted.  
