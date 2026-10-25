@@ -1,12 +1,14 @@
 # VAP-AT: Verifiable AI Provenance – Assessment Test
 
-[![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow.svg)](./VAP-AT_Program_Charter_v0.6a.md)
+[![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow.svg)](./VAP-AT_Program_Charter_v0_6a_EN.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version: 0.6a](https://img.shields.io/badge/Version-0.6a-blue.svg)](./CHANGELOG.md)
+[![Version: 0.6a](https://img.shields.io/badge/Version-0.6a-blue.svg)](./VAP-AT_CHANGELOG.md)
 
 **VAP-AT** is a measurement-based assessment framework that evaluates AI systems for **Auditability**, **Verifiability**, and **Regulatory Readiness**.
 
-> *"Verify, Don't Trust"* — Evaluating that audit trails for AI systems exist in a mathematically verifiable form.
+> *"Verify, Don't Trust"* — Evaluating that audit trails for AI systems exist in a cryptographically verifiable form.
+
+> **Status correction — 25 October 2026:** This is a dated draft (Charter v0.6a, 2025-12-28). VSO is operated by VeritasChain Co., Ltd. VSO does not issue certificates. A CAB must be independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd. (the planned "Pilot CAB #1"), is not independent (VAP v1.2 ERRATA E-2026-10-21). "Accredited" in the charter means "VSO-approved": VSO approval is not accreditation in the ISO/IEC 17000 sense. Scores and Threshold Designations do not determine regulatory compliance (VAP v1.2 §1.6). The current VAP-AT program description is in [veritaschain/vap-spec `programs/vap-at/`](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at).
 
 ---
 
@@ -44,8 +46,8 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
 
 | Document | Description |
 |----------|-------------|
-| [**Program Charter**](./VAP-AT_Program_Charter_v0.6a.md) | Complete specification including governance, scoring criteria, and roadmap |
-| [**Changelog**](./CHANGELOG.md) | Version history and changes |
+| [**Program Charter (EN)**](./VAP-AT_Program_Charter_v0_6a_EN.md) / [**(JA)**](./VAP-AT_Program_Charter_v0_6a_JA.md) | Draft v0.6a: governance, scoring criteria, and roadmap |
+| [**Changelog**](./VAP-AT_CHANGELOG.md) | Version history and changes |
 
 ---
 
@@ -62,7 +64,7 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
 │  Level 2: VAP-AT Verified                                   │
-│  • Third-party assessment by VSO-accredited CAB             │
+│  • Third-party assessment by VSO-approved CAB               │
 │  • Target: Medium-risk AI (HR Tech, credit scoring)         │
 │  • Cost: $15,000 – $150,000                                 │
 └─────────────────────────────────────────────────────────────┘
@@ -120,24 +122,24 @@ Threshold Designations are **interpretive labels** for procurement and regulator
 | Program Charter | 📝 Draft (v0.6a) |
 | Scoring Criteria v1.0 | 🔜 Planned |
 | Evidence Pack Template | 🔜 Planned |
-| Pilot CAB Accreditation | 🔜 2026 Q1 |
-| Public Registry | 🔜 2026 Q3 |
+| Pilot CAB approval | 🔜 2026 Q1 (original target; status not updated here). The only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21) |
+| Public Registry | 🔜 2026 Q3 (original target; status not updated here) |
 
 ---
 
 ## Related Resources
 
 ### VAP Framework
-- [VAP Framework Specification v1.1](../../specifications/vap/)
-- [VAP Scorecard Explorer](../../tools/vap-scorecard-explorer/)
+- [VAP Framework Specification v1.2 (Draft 3)](https://github.com/veritaschain/vap-spec/blob/main/spec/v1.2/VAP_Framework_Specification.md) (v1.1 is superseded for new work)
+- [VAP Scorecard](https://github.com/veritaschain/vap-spec/tree/main/scorecard) (question set only)
 
 ### VeritasChain Protocol (VCP)
-- [VCP Specification v1.0](../../specifications/vcp/)
-- [VCP Sidecar Integration Guide](../../guides/vcp-sidecar/)
+- [VCP Specification](https://github.com/veritaschain/vcp-spec) (current release: v1.2)
+- [VCP Sidecar Integration Guide](https://github.com/veritaschain/vcp-sidecar-guide)
 
 ### External Links
 - [VeritasChain Standards Organization](https://veritaschain.org)
-- [IETF Draft: draft-kamimura-scitt-vcp](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/)
+- [Individual Internet-Draft: draft-kamimura-scitt-vcp](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) (not adopted by any IETF WG)
 
 ---
 
@@ -149,7 +151,7 @@ VAP-AT is currently in draft stage. We welcome feedback through:
 - **Discussions:** For broader conversations about the framework
 - **Pull Requests:** For proposed changes to documentation
 
-Please read our [Contributing Guidelines](../../CONTRIBUTING.md) before submitting.
+Please read our [Contributing Guidelines](https://github.com/veritaschain/.github/blob/main/CONTRIBUTING.md) before submitting.
 
 ---
 

@@ -1,5 +1,7 @@
 # Content / Creative AI Profile (CAP)
 
+> **Superseded — status note, 25 October 2026:** This v0.1 draft (2025-12-27) is superseded. The current specification is CAP v1.0 (Released, tag `v1.0`) in [veritaschain/cap-spec](https://github.com/veritaschain/cap-spec). The text below is kept unchanged as a historical record. Read "tamper-proof" in §6.6.1 as "tamper-evident": a hash chain makes changes detectable; it does not make them impossible. CAP v1.0 is not VAP v1.2 conformant (a draft mapping with unresolved divergences is published in cap-spec).
+
 ## Basic Specification v0.1
 
 **Document ID:** VSO-CAP-SPEC-001  
