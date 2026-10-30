@@ -1,13 +1,13 @@
 # VAP-AT Program Charter
 
-> **ステータス訂正 — 2026年10月25日**
+> **ステータス訂正 — 2026年10月25日、範囲明確化 — 2026年10月30日**
 >
 > - 本書は日付付きのドラフト（v0.6a、2025-12-28、"Draft for Internal Review"）であり、現行のプログラム説明ではありません。現行の説明は [veritaschain/vap-spec `programs/vap-at/`](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at) を参照してください。
-> - §3 の「非営利標準策定 + 独立CAB」モデルは、本ドラフトが参考にした構造モデルであり、VSO が非営利であることを示すものではありません。VSO は VeritasChain株式会社 が運営しており、その中立性は法人形態ではなく、公開された仕組みによって担保されます。
-> - 本書の「認定」（accreditation、VSO Accredited CAB 等）は「VSO による承認（VSO-approved）」と読み替えてください。VSO による CAB の承認は ISO/IEC 17000 の意味での認定（accreditation）ではありません。認定は国家認定機関が行います。
+> - §3 の「非営利標準策定 + 独立CAB」モデルは、本ドラフトが参考にした構造モデルであり、VSO が非営利であることを示すものではありません。VSO の運営主体は VeritasChain株式会社です。VSO は、中立性を法人形態ではなく公開された仕組みに基づくものと説明しています。
+> - 本書の「認定」（accreditation、VSO Accredited CAB 等）は「VSO による承認（VSO-approved）」と読み替えてください。VSO による CAB の承認は ISO/IEC 17000 の意味での認定（accreditation）ではありません。[現行 CAB 登録簿と役割の説明](https://veritaschain.org/certified/cab/)を参照してください。
 > - VSO は認証を直接発行しません。CAB はスキームオーナーから独立していることが要件ですが、登録済みの唯一の CAB である VeritasChain株式会社（下記の Pilot CAB #1）は独立していません（VAP v1.2 ERRATA E-2026-10-21）。独立した CAB は登録されていません。
 > - スコアや Threshold Designation は法令適合を判定するものではありません（VAP v1.2 §1.6）。本書が参照する VAP v1.1 は、新規作業については VAP v1.2（Draft 3）に置き換えられています。
-> - 市場規模の数値、規制日程、ロードマップの目標時期はドラフト作成時点のもので、更新していません。EU AI Act の高リスクAIに関する義務の適用日は Regulation (EU) 2026/1744 により変更され、附属書III の高リスクAIは2027年12月2日から、附属書I の高リスクAIは2028年8月2日から適用されます（下記11.3の「2026年8月2日」「2027年8月2日」は旧日程です）。
+> - 下記の歴史資料に含まれる市場規模、規制日程、ロードマップの記述は変更していません。[Regulation (EU) 2026/1744 第1条(40)(b)](https://eur-lex.europa.eu/eli/reg/2026/1744/oj)は AI Act 第113条(c)を改正しています。対象は第III章第1～3節（第6条(5)を除く）で、第6条(2)・附属書IIIに基づく高リスクシステムは2027年12月2日から、第6条(1)・附属書Iに基づく高リスクシステムは2028年8月2日から適用されます。AI Act 全体の延期を意味するものではなく、他の条項や経過措置には別の適用日があります。[欧州委員会の現行日程説明](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)も参照してください。
 
 **Document ID:** VSO-VAP-AT-001  
 **Version:** 0.6a (Draft, revised)  
