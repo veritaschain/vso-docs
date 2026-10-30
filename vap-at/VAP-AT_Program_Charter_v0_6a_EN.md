@@ -1,5 +1,14 @@
 # VAP-AT Program Charter
 
+> **Status correction — 25 October 2026; scope clarified 30 October 2026**
+>
+> - This is a dated draft (v0.6a, 2025-12-28, "Draft for Internal Review"). It is not a current program description; see [veritaschain/vap-spec `programs/vap-at/`](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at).
+> - The "Non-profit Standard + Independent CAB" model in §3 is a reference model this draft chose to follow. It is not a statement that VSO is non-profit: VSO is operated by VeritasChain Co., Ltd. (kabushiki kaisha), and its neutrality rests on published mechanisms.
+> - Read "accredited", "accreditation" and "VSO Accredited CAB" as "VSO-approved" / "approval". VSO approval of a CAB is not accreditation in the ISO/IEC 17000 sense. See the [current CAB registry and role explanation](https://veritaschain.org/certified/cab/).
+> - VSO does not issue certifications itself. A CAB must be independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd. (the "Pilot CAB #1" below), is not independent (VAP v1.2 ERRATA E-2026-10-21). No independent CAB has been registered.
+> - Scores and Threshold Designations do not determine regulatory compliance (VAP v1.2 §1.6). VAP v1.1 cited below is superseded by VAP v1.2 (Draft 3) for new work.
+> - Market-size figures, regulatory dates and roadmap targets in the historical text below are unchanged. [Regulation (EU) 2026/1744, Article 1(40)(b)](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) amends AI Act Article 113(c): Chapter III, Sections 1–3, except Article 6(5), apply from 2 December 2027 for systems classified as high-risk under Article 6(2)/Annex III and from 2 August 2028 under Article 6(1)/Annex I. This is not a postponement of the AI Act as a whole; other provisions and transitional rules have their own dates. See also the [Commission's current timeline](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai).
+
 **Document ID:** VSO-VAP-AT-001  
 **Version:** 0.6a (Draft, revised)  
 **Status:** Draft for Internal Review  
