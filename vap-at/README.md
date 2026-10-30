@@ -1,29 +1,31 @@
-# VAP-AT: Verifiable AI Provenance – Assessment Test
+# VAP-AT: Archived Assessment Test Draft
 
-[![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow.svg)](./VAP-AT_Program_Charter_v0.6a.md)
+[![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow.svg)](./VAP-AT_Program_Charter_v0_6a_EN.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version: 0.6a](https://img.shields.io/badge/Version-0.6a-blue.svg)](./CHANGELOG.md)
+[![Version: 0.6a](https://img.shields.io/badge/Version-0.6a-blue.svg)](./VAP-AT_CHANGELOG.md)
 
-**VAP-AT** is a measurement-based assessment framework that evaluates AI systems for **Auditability**, **Verifiability**, and **Regulatory Readiness**.
+The archived **VAP-AT (Assessment Test)** draft proposed measurement-based evaluation of **Auditability**, **Verifiability**, and **Regulatory Readiness**. The current program description uses **Auditability Testing** and is linked below.
 
-> *"Verify, Don't Trust"* — Evaluating that audit trails for AI systems exist in a mathematically verifiable form.
+> *"Verify, Don't Trust"* — Evaluating that audit trails for AI systems exist in a cryptographically verifiable form.
+
+> **Status correction — 25 October 2026; archive scope clarified 30 October 2026:** This directory preserves Charter v0.6a (2025-12-28). Its levels, cost ranges, scoring labels and roadmap are historical proposals, not current service availability, pricing or regulatory classifications. VSO is operated by VeritasChain Co., Ltd. VSO does not issue certifications itself. The VC-Certified scheme requires CAB independence; the only registered CAB, VeritasChain Co., Ltd. (the planned "Pilot CAB #1"), is not independent (VAP v1.2 ERRATA E-2026-10-21). Read "accredited" in the charter as "VSO-approved": approval is not accreditation in the ISO/IEC 17000 sense. Scores and Threshold Designations do not determine regulatory compliance (VAP v1.2 §1.6). The [current VAP-AT description](https://github.com/veritaschain/vap-spec/tree/main/programs/vap-at) is a score-based benchmark program, not a conformance or certification scheme.
 
 ---
 
 ## Overview
 
-VAP-AT addresses a critical gap in AI governance: while regulations like the EU AI Act mandate logging and audit capabilities for high-risk AI systems, no standardized framework exists to **measure and verify** these capabilities.
+The archived draft proposed ways to measure and verify auditability. This directory records that proposal; it does not establish the availability of an assessment service, an independent assessment result or regulatory compliance.
 
-### Key Differentiators
+### Proposed Design Features in the Archived Draft
 
 | Feature | VAP-AT Approach |
 |---------|-----------------|
 | **Assessment Target** | AI systems (not individuals) |
 | **Output** | Score-based (0-20) with optional threshold labels |
 | **Design Philosophy** | Continuous improvement over binary pass/fail |
-| **Independence** | 4-layer separation of standard-setting and assessment |
+| **Independence** | Proposed 4-layer separation; the current CAB registry does not establish that separation |
 
-### What VAP-AT Measures
+### Proposed Assessment Questions
 
 | Property | Key Question |
 |----------|--------------|
@@ -44,12 +46,14 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
 
 | Document | Description |
 |----------|-------------|
-| [**Program Charter**](./VAP-AT_Program_Charter_v0.6a.md) | Complete specification including governance, scoring criteria, and roadmap |
-| [**Changelog**](./CHANGELOG.md) | Version history and changes |
+| [**Program Charter (EN)**](./VAP-AT_Program_Charter_v0_6a_EN.md) / [**(JA)**](./VAP-AT_Program_Charter_v0_6a_JA.md) | Draft v0.6a: governance, scoring criteria, and roadmap |
+| [**Changelog**](./VAP-AT_CHANGELOG.md) | Version history and changes |
 
 ---
 
-## Assessment Levels
+## Historical Assessment-Level Proposal
+
+The levels and cost ranges below come from the 2025 draft. The low/medium/high labels are not EU AI Act classifications. The named "VAP Scorecard Explorer" has not been published as a web, API or CLI tool; the [current scorecard](https://github.com/veritaschain/vap-spec/tree/main/scorecard) is a question set.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -62,7 +66,7 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
 │  Level 2: VAP-AT Verified                                   │
-│  • Third-party assessment by VSO-accredited CAB             │
+│  • Third-party assessment by VSO-approved CAB               │
 │  • Target: Medium-risk AI (HR Tech, credit scoring)         │
 │  • Cost: $15,000 – $150,000                                 │
 └─────────────────────────────────────────────────────────────┘
@@ -78,7 +82,7 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
 
 ---
 
-## Scoring System
+## Historical Scoring Proposal
 
 **10 Criteria × 0-2 Points = Maximum 20 Points**
 
@@ -91,7 +95,7 @@ VAP-AT addresses a critical gap in AI governance: while regulations like the EU 
 
 ### Threshold Designations (Optional)
 
-Threshold Designations are **interpretive labels** for procurement and regulatory reporting convenience:
+The draft proposed **interpretive labels** for procurement and regulatory reporting convenience:
 
 - "VAP-AT Auditability Threshold – EU AI Act Art.12/19 aligned" (Score 16+)
 - "VAP-AT Auditability Threshold – MiFID II RTS 25 aligned" (Score 14+)
@@ -101,9 +105,9 @@ Threshold Designations are **interpretive labels** for procurement and regulator
 
 ---
 
-## Regulatory Alignment
+## Regulatory Topics Named in the Archived Draft
 
-| Regulation | VAP-AT Coverage |
+| Regulation | Intended relevance in the draft; not a compliance finding |
 |------------|-----------------|
 | **EU AI Act** | Art.12 (Logging), Art.14 (Human Oversight), Art.19 (Retention), Annex IV |
 | **MiFID II RTS 25** | Time synchronization, algo trading audit trails |
@@ -113,43 +117,43 @@ Threshold Designations are **interpretive labels** for procurement and regulator
 
 ---
 
-## Current Status
+## Archived Roadmap
 
 | Milestone | Status |
 |-----------|--------|
 | Program Charter | 📝 Draft (v0.6a) |
 | Scoring Criteria v1.0 | 🔜 Planned |
 | Evidence Pack Template | 🔜 Planned |
-| Pilot CAB Accreditation | 🔜 2026 Q1 |
-| Public Registry | 🔜 2026 Q3 |
+| Pilot CAB approval | 🔜 2026 Q1 (original target; status not updated here). The only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21) |
+| Public Registry | 🔜 2026 Q3 (original target; status not updated here) |
 
 ---
 
 ## Related Resources
 
 ### VAP Framework
-- [VAP Framework Specification v1.1](../../specifications/vap/)
-- [VAP Scorecard Explorer](../../tools/vap-scorecard-explorer/)
+- [VAP Framework Specification v1.2 (Draft 3)](https://github.com/veritaschain/vap-spec/blob/main/spec/v1.2/VAP_Framework_Specification.md) (v1.1 is superseded for new work)
+- [VAP Scorecard](https://github.com/veritaschain/vap-spec/tree/main/scorecard) (question set only)
 
 ### VeritasChain Protocol (VCP)
-- [VCP Specification v1.0](../../specifications/vcp/)
-- [VCP Sidecar Integration Guide](../../guides/vcp-sidecar/)
+- [VCP Specification](https://github.com/veritaschain/vcp-spec) (current release: v1.2)
+- [VCP Sidecar Integration Guide](https://github.com/veritaschain/vcp-sidecar-guide)
 
 ### External Links
 - [VeritasChain Standards Organization](https://veritaschain.org)
-- [IETF Draft: draft-kamimura-scitt-vcp](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/)
+- [Individual Internet-Draft: draft-kamimura-scitt-vcp](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) (not adopted by any IETF WG)
 
 ---
 
 ## Contributing
 
-VAP-AT is currently in draft stage. We welcome feedback through:
+These archived drafts are preserved for reference. Feedback may be submitted through:
 
 - **Issues:** For questions, suggestions, or bug reports
 - **Discussions:** For broader conversations about the framework
 - **Pull Requests:** For proposed changes to documentation
 
-Please read our [Contributing Guidelines](../../CONTRIBUTING.md) before submitting.
+Please read our [Contributing Guidelines](https://github.com/veritaschain/.github/blob/main/CONTRIBUTING.md) before submitting.
 
 ---
 
