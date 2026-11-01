@@ -8,6 +8,8 @@
 > - These archived documents do not establish an implementation's conformance to any VCP tier or to VAP. VSO's [published disclosure dated 25 October 2026](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure) reports zero external implementations of VAP or any of its profiles.
 > - The CAP drafts here (v0.1, v0.2) are superseded by CAP v1.0 in [veritaschain/cap-spec](https://github.com/veritaschain/cap-spec). The VAP-AT charter in `vap-at/` is a dated draft (v0.6a); see the notes at the top of each file.
 
+> **Publication review — 1 November 2026:** The report marked “CONFIDENTIAL — LEGAL REVIEW” has been removed from the current tree pending a separate decision on publication clearance and any redaction. This does not remove copies from Git history, existing clones, caches or downloads. The report is not current substantiation for a “world's first” claim. Internal research and AI-assisted searches are not independent third-party validation.
+
 This repository preserves historical documents published by the **VeritasChain Standards Organization (VSO)**.  
 It contains historical documents related to **VC-Certified** (v1.0), **VCP v1.0 conformance**, and the **Early Adopter Program** (see the status correction above).
 
@@ -138,4 +140,4 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 ## 📄 License & Usage
 
 Documentation © 2025 **VeritasChain Standards Organization (VSO)**.  
-May be used for **VCP conformance, VC-Certified assessments, and related certification processes.**
+Reuse is governed by [LICENSE](LICENSE). Permission to reuse an archived document does not establish conformance, authorize certification, or make the historical forms current assessment instructions.
