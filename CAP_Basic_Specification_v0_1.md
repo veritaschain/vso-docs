@@ -41,7 +41,7 @@ AI is already extensively used in content industries, and halting its use is unr
 8. [Non-Goals](#8-non-goals)
 9. [Regulatory Alignment](#9-regulatory-alignment)
 10. [Implementation Guidelines](#10-implementation-guidelines)
-11. [Appendix A: JSON Examples (Non-Normative)](#appendix-a-json-examples-non-normative)
+11. [Appendix A: JSON Examples (Non-Normative)](#11-appendix-a-json-examples-non-normative)
 12. [References](#12-references)
 
 ---
@@ -988,6 +988,7 @@ evidence-pack-{ChainID}/
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
+| 0.1.0 archive editorial note | 2026-11-02 | VSO | Repair the Appendix A navigation link; historical technical text unchanged. |
 | 0.1.0 | 2025-12-27 | VSO | Initial draft |
 
 ---
