@@ -2,7 +2,7 @@
 
 > **Status correction — 25 October 2026; archive scope clarified 30 October 2026**
 >
-> - The VCP v1.0 and VC-Certified v1.0 documents in this repository are historical materials, not current assessment or onboarding instructions. VCP v1.0 is superseded by VCP v1.2 (Released, tag `v1.2.0`). The `.docx` files (`VCP_Silver_Tier_SAC_v1.docx`, `VC_Certified_Silver_Certificate_v1.docx`, `VCP_Early_Adopter_Agreement_v1.docx`) are preserved unchanged.
+> - The VCP v1.0 and VC-Certified v1.0 documents in this repository are historical materials, not current assessment or onboarding instructions. VCP v1.0 is superseded by VCP v1.2 (Released, tag `v1.2.0`). On 2 November 2026, the three editable Word templates were replaced in the current tree by PDFs with a dated notice and **SAMPLE / HISTORICAL ARCHIVE / NOT VALID** on every source page. Original wording remains visible only as historical context; earlier Git commits and downloaded copies are not erased.
 > - VSO does not issue certifications itself. The certification scheme requires a Conformity Assessment Body (CAB) independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21). No independent CAB is listed in the [current scheme registry](https://veritaschain.org/certified/cab/).
 > - VSO is operated by VeritasChain Co., Ltd. (kabushiki kaisha); its neutrality rests on published mechanisms, not on its legal form. Conformance is not compliance (VAP v1.2 §1.6).
 > - These archived documents do not establish an implementation's conformance to any VCP tier or to VAP. VSO's [published disclosure dated 25 October 2026](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure) reports zero external implementations of VAP or any of its profiles.
@@ -26,14 +26,14 @@ VSO’s mission:
 
 | Document | File | Description |
 |----------|------|-------------|
-| **VCP Silver Tier – Self-Assessment Checklist (SAC)** | `VCP_Silver_Tier_SAC_v1.docx` | Historical v1.0 self-assessment checklist. Records the historical Mandatory/Recommended requirements, RFC references (UUIDv7, RFC 8785, RFC 6962), and evidence submission criteria; not a current assessment checklist. Document ID: **VSO-CERT-SILVER-SAC-v1.0**. |
-| **VC-Certified Silver Tier – Certificate Template** | `VC_Certified_Silver_Certificate_v1.docx` | Historical template for a Silver Tier certificate. VSO does not issue certifications itself (see the status correction above). Includes VSO Non-Endorsement Policy language. |
+| **VCP Silver Tier – Self-Assessment Checklist (SAC)** | [Historical sample PDF](VCP_Silver_Tier_SAC_v1_HISTORICAL_SAMPLE.pdf) | Historical v1.0 checklist, invalid for current assessment. Document ID: **VSO-CERT-SILVER-SAC-v1.0**. |
+| **VC-Certified Silver Tier – Certificate Template** | [Historical sample PDF](VC_Certified_Silver_Certificate_v1_HISTORICAL_SAMPLE.pdf) | Blank historical template, not an issued or valid certificate. VSO does not issue certifications itself (see the status correction above). |
 
 ### 2. Early Adopter Program Documents
 
 | Document | File | Description |
 |----------|------|-------------|
-| **Early Adopter Participation Agreement** | `VCP_Early_Adopter_Agreement_v1.docx` | Historical v1.0 participation-agreement form for the VCP Silver Tier Early Adopter Program. Preserved for reference, not presented here as a current agreement to sign. Covers confidentiality, deliverables, IP rights, disclaimers, and jurisdiction. Document ID: **VSO-EA-AGREE-v1.0**. |
+| **Early Adopter Participation Agreement** | [Historical sample PDF](VCP_Early_Adopter_Agreement_v1_HISTORICAL_SAMPLE.pdf) | Historical blank v1.0 participation-agreement draft, invalid for current use and not an agreement to sign. Document ID: **VSO-EA-AGREE-v1.0**. |
 
 ---
 
@@ -111,7 +111,7 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
   - Consult the [current VCP specification and implementation status](https://github.com/veritaschain/vcp-spec) and the [current CAB registry](https://veritaschain.org/certified/cab/) before relying on certification-related descriptions.
 
 - **For Regulators / Auditors / Researchers**  
-  - Use the unchanged files to trace the historical criteria and wording.  
+  - Use the marked archive copies to trace the historical criteria and wording.
   - Read them with the dated corrections above; the archive does not establish current certification, implementation conformance or regulatory compliance.
 
 > This repository is a historical archive of VC-Certified documentation for VCP v1.0 Silver Tier. It is not current guidance.
@@ -130,7 +130,7 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 
 ## 📨 Contact
 
-**VeritasChain Standards Organization (VSO)** – Certification Division  
+**VeritasChain Standards Organization (VSO)** – Historical documentation inquiries
 
 - Email: `certification@veritaschain.org`  
 - Web: `https://veritaschain.org`  
@@ -141,3 +141,9 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 
 Documentation © 2025 **VeritasChain Standards Organization (VSO)**.  
 Reuse is governed by [LICENSE](LICENSE). Permission to reuse an archived document does not establish conformance, authorize certification, or make the historical forms current assessment instructions.
+
+## Archive publication correction — 2 November 2026
+
+The editable v1.0 certificate, agreement and self-assessment checklist have been replaced by marked reference PDFs. Historical reuse permissions do not authorize use in current assessment, certification or contracting. No current certificate or independent assessment is created by this change.
+
+編集可能な旧版の認証書・参加契約書・自己評価チェックリストを、各ページに「歴史的資料・無効」と表示した参照用PDFへ置き換えました。現在の審査・認証・契約には使用できません。Git履歴の削除は行っていません。
