@@ -35,6 +35,12 @@ VSO’s mission:
 |----------|------|-------------|
 | **Early Adopter Participation Agreement** | [Historical sample PDF](VCP_Early_Adopter_Agreement_v1_HISTORICAL_SAMPLE.pdf) | Historical blank v1.0 participation-agreement draft, invalid for current use and not an agreement to sign. Document ID: **VSO-EA-AGREE-v1.0**. |
 
+### 3. External research reproduction
+
+| Document | File | Description |
+|----------|------|-------------|
+| **External reproduction notes** | [external-reproduction/README.md](external-reproduction/README.md) | Notes for independent reproduction and critique of public Evidence Pack materials. Not a certification kit, not an independent CAB assessment, and not an endorsement. |
+
 ---
 
 ## 🏛️ Historical v1.0 Certification Overview
@@ -113,6 +119,7 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 - **For Regulators / Auditors / Researchers**  
   - Use the marked archive copies to trace the historical criteria and wording.
   - Read them with the dated corrections above; the archive does not establish current certification, implementation conformance or regulatory compliance.
+  - For a review of public Evidence Pack materials, start from the [external reproduction notes](external-reproduction/README.md). Those notes are for reproduction and critique. They are not a certification procedure.
 
 > This repository is a historical archive of VC-Certified documentation for VCP v1.0 Silver Tier. It is not current guidance.
 
@@ -122,6 +129,7 @@ VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mec
 
 - [Current VCP specification and implementation status](https://github.com/veritaschain/vcp-spec) — VCP v1.2, specification GA; see its known issues.
 - [Current VAP framework](https://github.com/veritaschain/vap-spec/blob/main/spec/v1.2/VAP_Framework_Specification.md) — v1.2, Draft 3.
+- [External reproduction notes](external-reproduction/README.md) — research reproduction and critique of public Evidence Pack materials. Not certification, not an independent CAB assessment, and not an endorsement.
 - [Current CAB registry and independence disclosure](https://veritaschain.org/certified/cab/).
 - [Historical VCP v1.0 release](https://github.com/veritaschain/vcp-spec/tree/v1.0.0).
 - [VCP Sidecar Integration Guide](https://github.com/veritaschain/vcp-sidecar-guide) — illustrative legacy v1.0 code; consult its status notice.
