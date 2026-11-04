@@ -4,7 +4,7 @@
 >
 > - The VCP v1.0 and VC-Certified v1.0 documents in this repository are historical materials, not current assessment or onboarding instructions. VCP v1.0 is superseded by VCP v1.2 (Released, tag `v1.2.0`). On 2 November 2026, the three editable Word templates were replaced in the current tree by PDFs with a dated notice and **SAMPLE / HISTORICAL ARCHIVE / NOT VALID** on every source page. Original wording remains visible only as historical context; earlier Git commits and downloaded copies are not erased.
 > - VSO does not issue certifications itself. The certification scheme requires a Conformity Assessment Body (CAB) independent of the scheme owner; the only registered CAB, VeritasChain Co., Ltd., is not independent (VAP v1.2 ERRATA E-2026-10-21). No independent CAB is listed in the [current scheme registry](https://veritaschain.org/certified/cab/).
-> - VSO is operated by VeritasChain Co., Ltd. (kabushiki kaisha); its neutrality rests on published mechanisms, not on its legal form. Conformance is not compliance (VAP v1.2 §1.6).
+> - VSO aims for vendor neutrality through public procedures and conflict-of-interest management; VSO is operated by VeritasChain Co., Ltd., currently also the only registered CAB. Conformance is not compliance (VAP v1.2 §1.6).
 > - These archived documents do not establish an implementation's conformance to any VCP tier or to VAP. VSO's [published disclosure dated 25 October 2026](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure) reports zero external implementations of VAP or any of its profiles.
 > - The CAP drafts here (v0.1, v0.2) are superseded by CAP v1.0 in [veritaschain/cap-spec](https://github.com/veritaschain/cap-spec). The VAP-AT charter in `vap-at/` is a dated draft (v0.6a); see the notes at the top of each file.
 
@@ -81,7 +81,7 @@ The archived v1.0 materials described the following criteria for **VC-Certified 
 
 ## 🧭 VSO Core Policies
 
-VSO is operated by VeritasChain Co., Ltd.; its neutrality rests on published mechanisms.
+VSO aims for vendor neutrality through public procedures and conflict-of-interest management; VSO is operated by VeritasChain Co., Ltd., currently also the only registered CAB.
 
 **Key principles:**
 
